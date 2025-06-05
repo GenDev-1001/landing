@@ -236,7 +236,7 @@ footer {
 
   .features-columns ul {
     flex: 1 1 100%;
-    max-width: 350px;
+    width: 300px;
   }
 
   .gallery .images {
