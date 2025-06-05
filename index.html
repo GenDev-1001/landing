@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Санаторий Ружанский</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header class="scroll-fade">
+		<img src="imgs/logo.png" alt="Логотип санатория" style="height: 80px; margin-bottom: 10px;">
+		<h1>Санаторий «Ружанский»</h1>
+		<p>Комфортный отдых и лечение в сердце белорусской природы</p>
+	</header>
+
+	<section class="intro scroll-fade">
+		<p>Санаторий «Ружанский» – гибридное предприятие, функционирующее как SPA-курорт, классический санаторий и
+			курортно-реабилитационный медицинский центр с высокопрофессиональным коллективом работников.</p>
+		<div class="features-columns scroll-fade">
+			<ul class="scroll-fade">
+				<li>Современные номера</li>
+				<li>6 коттеджей</li>
+				<li>Шведский стол</li>
+				<li>Бесплатный Wi-Fi</li>
+			</ul>
+			<ul class="scroll-fade">
+				<li>9 бассейнов</li>
+				<li>13 бань и саун</li>
+				<li>4 джакузи</li>
+				<li>Тренажерный зал</li>
+			</ul>
+			<ul class="scroll-fade">
+				<li>6 направлений лечений</li>
+				<li>Лечебные программы</li>
+				<li>Процедуры и диагностика</li>
+				<li>квалифицированные врачи</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="gallery scroll-fade">
+		<h2>Галерея</h2>
+		<div class="images">
+			<img src="imgs/1.jpg" alt="Домик снегурочки" class="scroll-fade">
+			<img src="imgs/2.jpg" alt="Бассейн" class="scroll-fade">
+			<img src="imgs/3.jpg" alt="Фонтан" class="scroll-fade">
+		</div>
+	</section>
+
+	<section class="form-section scroll-fade">
+		<h3>Здравствуйте уважаемые гости выставки, поучаствуйте в нашей интерактивной программе "Хочу в Ружанский!", и
+			ваша мечта
+			обязательно сбудется</h3>
+		<p>Заполните форму, и мы свяжемся с вами:</p>
+		<form id="booking-form" class="scroll-fade">
+			<label for="name">ФИО:</label>
+			<input type="text" id="name" name="name" placeholder="Иванов Иван Иванович" required>
+
+			<label for="email">Электронная почта:</label>
+			<input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+			<button type="submit">Хочу в Ружанский!</button>
+		</form>
+		<div id="confirmation" class="hidden scroll-fade">
+			<p>Спасибо! Ваша заявка отправлена. Мы свяжемся с вами в ближайшее время.</p>
+		</div>
+	</section>
+
+	<footer class="scroll-fade">
+		<p>&copy; 2025 Санаторий «Ружанский». Все права защищены.</p>
+	</footer>
+
+	<script src="./js/main.js"></script>
+
+	
+	
+</body>
+
+</html>
