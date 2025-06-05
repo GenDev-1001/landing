@@ -309,3 +309,12 @@ footer {
 	opacity: 1;
 	transform: translateY(0);
 }
+
+.red-text{
+	background: linear-gradient(to right, #b30000, #8a0000);
+    color: white;
+    padding: 40px;
+    border-radius: 60px;
+
+}
+
